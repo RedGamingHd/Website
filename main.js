@@ -74,13 +74,25 @@ let object6 = {
         Assault_Sniper: []
     }
 }
+let object7 = {
+    title: "Pacman",
+    genre: "Simulation",
+    types1: {
+        Pac_Man: [],
+        Ghost_1: [],
+        Ghost_2: [],
+        Ghost_3: [],
+        Ghost_4: []
+    }
+}
+
 let array = [object, object1, object2, object6]
 array.forEach(Game=>{
     let object = document.createElement("div")
     object.innerText = Game.title
     document.getElementById("div11").appendChild(object)
 })
-let array1 = [object4]
+let array1 = [object4, object7]
 let array2 = [object3, object5]
 array1.forEach(Game=>{
     let object = document.createElement("div")
