@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: gold;
+}
+#div11 {
+
+}
+#div1:hover>#div11{
+    display:block;
+}
+#div1>#div11{
+    display:none;
+}
+#div2{
+    background: cadetblue;
+}
+#nav{
+    width: 100%;
+    height: 30px;
+    background: aqua;
+    margin: 0px;
+}
+
+#div1,#div2,#div3 {
+    float: right;
+    width:calc(100%/3);
+    height: 30px;
+}
+#div11{
+    background: teal;
+    width: auto;
+    height: auto;
+}
+.main>div{
+    height: 40px;
+    width: 100px;
+    background: crimson;
+    margin-bottom: 5px;
+}
+p{
+    height: 30px;
+}
